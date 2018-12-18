@@ -39,3 +39,5 @@ Submit a Merge Request that creates Terraform and Ansible configuration to do th
    * The PHP "application" should use this user when connecting to the DB.  
 1. When the instances in your new ASG come up, they should pull this repo (or your fork of it) and execute an Ansible playbook to apply the Apache & PHP roles to themselves.
 1. Terraform should output the public DNS of the Elastic load balancer that, when visited in a browser, should show the listing of the database tables and the phpinfo() page.
+
+EOF
